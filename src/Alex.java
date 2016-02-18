@@ -12,4 +12,13 @@ public class Alex {
     public static String ALexico()throws IOException{
         
     }
-}
+    public static void Llena_Buffer() throws FileNotFoundException, IOException{
+        
+    }
+    public static char Lee_Caracter() throws IOException{
+
+    }
+    public static void Deslee(){
+        
+    }
+}   
