@@ -1,14 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author poncho
- */
+import static Alex.Buffer;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+
 public class Alex {
+    
+    
+    public static class A_Buffer{
+        public int pos_leida;
+        public int tamaño;
+        public String cadena;
+    }
+    public static A_Buffer Buffer = new Buffer();
+    public static BufferedReader b = new BufferedReader(UAMI.Archivo_fte);
+    
+    
     public static String ALexico()throws IOException{
         
     }
