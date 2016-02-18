@@ -1,4 +1,4 @@
-
+import static Alex.Buffer;
 import static Alex.Buffer;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
